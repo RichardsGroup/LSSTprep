@@ -12,7 +12,7 @@ GAIA -- Notebooks related to determining under what conditions GAIA can be used 
 
 Photoz -- Notebooks exploring different aspect of photo-z's for AGNs
 in LSST.  Currently maintained by Drexel undergrad co-op student Ben
-Martin (Drexel 2020).
+Martin (Drexel 2020).  The point is to demonstrate that photo-z in the LSST era will need to consider AGNs with significant contributions from their host galaxy where photo-z algorithms for quasars are more prone to fail (due to host contamination) and where photo-z algorithms for galaxies are also more prone to fail (due to central engine contamination).  We compare the effectiveness of 4 galaxy photo-z algorithms used by DES with our own Nadaraya-Watson based quasar photo-z algorithm.   [GTR: Add 4 sentences briefly describing the notebooks (in the preferred order of viewing) and a general concluding sentence.]
 
 
 
