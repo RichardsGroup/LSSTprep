@@ -1,6 +1,15 @@
 # LSSTprep
 Repository for Richards group LSST prep work, specifically related to the AGN SC.  Maintained by gtr@physics.drexel.edu
- 
+
+Cadence -- Notebooks related to exploring the effect of different
+cadences (particular, so-called "rolling" cadences) on the
+identification of AGNs in LSST via variability.  Let by Weixiang Yu.
+We will be simulating WFD and DDF light curves of theoretical AGNs
+(both damped random walks and damped harmonic oscillators--with a
+range of parameters) and seeing how changing the observing cadences
+affects our ability both to identify the objects as variable AGN and,
+furthermore, to accurately recover their model parameters.
+
 LCmerge -- Notebooks related to trying to understand how we can best
 merge light curves from multiple bands to produce a single light
 curve, both for the purpose of deciding whether an object is variable
