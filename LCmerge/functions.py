@@ -16,6 +16,7 @@ def krig(x, y, x_test):
     '''
     # Define our model and kernel
     kernel = kern.RationalQuadratic()
+    #kernel = kern.Matern()
     gp = GaussianProcessRegressor(kernel=kernel)
 
     # Fit our model to the data
@@ -26,7 +27,7 @@ def krig(x, y, x_test):
 
     return pred, sigma
 
-def plot_krig(x1, y1, x2, y2, c1, c2, n=2, timerange=(0,1e5)):
+def plot_krig(x1, y1, x2, y2, c1, c2, n=2, timerange=(0,1e5), title=""):
     '''
     Function to plot the kriging
     '''
@@ -56,8 +57,8 @@ def plot_krig(x1, y1, x2, y2, c1, c2, n=2, timerange=(0,1e5)):
     plt.xlabel('Time(days)')
     plt.ylabel('Magnitude')
     plt.legend()
-
-    plt.show()
+    plt.title(title)
+    #plt.show()
 
 
 def plot_shift(x1, y1, x2, y2, dx, dy, c1, c2, n=2):
