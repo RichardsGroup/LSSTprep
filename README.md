@@ -1,6 +1,8 @@
 # LSSTprep
 Repository for Richards group LSST prep work, specifically related to the AGN SC.  Maintained by gtr@physics.drexel.edu
 
+opSim -- Tutorial notebook to help people get started analyzing the cadence opSim.  Adapted by Weixiang and Gordon from notebooks referenced therein.
+
 Cadence -- Notebooks related to exploring the effect of different
 cadences (particular, so-called "rolling" cadences) on the
 identification of AGNs in LSST via variability.  Let by Weixiang Yu.
