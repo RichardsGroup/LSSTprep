@@ -1,11 +1,17 @@
 # LSSTprep
 Repository for Richards group LSST prep work, specifically related to the AGN SC.  Maintained by gtr@physics.drexel.edu
 
+Training set -- Notebooks related to the AGN classification training set 
+that we are building for LSST. We are currently focusing on the SDSS Stripe 82 region, 
+collected optical photometry and light curves from SDSS, 
+Mid-infrared photometry from Spitzer, proper motion and parallax measurements from GAIA. 
+We are still added more data. 
+
 opSim -- Tutorial notebook to help people get started analyzing the cadence opSim.  Adapted by Weixiang and Gordon from notebooks referenced therein.
 
 Cadence -- Notebooks related to exploring the effect of different
 cadences (particular, so-called "rolling" cadences) on the
-identification of AGNs in LSST via variability.  Let by Weixiang Yu.
+identification of AGNs in LSST via variability.  Led by Weixiang Yu.
 We will be simulating WFD and DDF light curves of theoretical AGNs
 (both damped random walks and damped harmonic oscillators--with a
 range of parameters) and seeing how changing the observing cadences
