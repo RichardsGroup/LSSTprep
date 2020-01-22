@@ -5,7 +5,7 @@ Training set -- Notebooks related to the AGN classification training set
 that we are building for LSST. We are currently focusing on the SDSS Stripe 82 region, 
 collected optical photometry and light curves from SDSS, 
 Mid-infrared photometry from Spitzer, proper motion and parallax measurements from GAIA. 
-We are still added more data. 
+We are still adding more data. 
 
 opSim -- Tutorial notebook to help people get started analyzing the cadence opSim.  Adapted by Weixiang and Gordon from notebooks referenced therein.
 
